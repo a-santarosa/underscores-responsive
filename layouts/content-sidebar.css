@@ -1,0 +1,22 @@
+/*
+Theme Name: Underscores Responsive
+Layout: Content-Sidebar
+*/
+
+.container {
+	float: left;
+	margin: 0 -25% 0 0;
+	width: 100%;
+}
+.site-main {
+	margin: 0 25% 0 0;
+}
+.site-content .widget-area {
+	float: right;
+	overflow: hidden;
+	/*width: 25%;*/ /* width controlled by responsive grid */
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+}
