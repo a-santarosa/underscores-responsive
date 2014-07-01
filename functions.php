@@ -58,8 +58,8 @@ function urs_setup() {
 	 * See http://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support( 'post-formats', array(
-		'aside', 'image', 'video', 'quote', 'link'
-	) );
+ +		'aside', 'image', 'video', 'quote', 'link'
+ +	) );
 
 	// Setup the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'urs_custom_background_args', array(
