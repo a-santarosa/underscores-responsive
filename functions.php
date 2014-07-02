@@ -39,6 +39,7 @@ function urs_setup() {
 	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
+	set_post_thumbnail_size( 604, 270, true );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -58,8 +59,8 @@ function urs_setup() {
 	 * See http://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support( 'post-formats', array(
- +		'aside', 'image', 'video', 'quote', 'link'
- +	) );
+		'aside', 'image', 'video', 'quote', 'link'
+	) );
 
 	// Setup the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'urs_custom_background_args', array(
