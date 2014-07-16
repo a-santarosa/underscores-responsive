@@ -1,0 +1,45 @@
+/*
+Theme Name: Underscores Responsive
+Theme URI: http://underscores.me/
+Author: Anthony Santarosa
+Author URI: http://www.guhru.com
+Description: Underscores with Responsive Grid
+Version: 1.0-wpcom
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: urs
+Domain Path: /languages/
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ Underscores Responsive is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+// configure the style from settings
+@import 'settings';
+
+// reset styles should stay at the top
+@import 'reset';
+
+// move mixins to their own partial
+@import 'mixins';
+
+// feel free to add any new files you want; if you add them this list they'll be included
+@import 'global';
+@import 'typography';
+@import 'forms';
+@import 'grid';
+@import 'menus';
+@import 'content';
+@import 'media';
+@import 'menus';
+@import 'comments';
+@import 'widgets';
+@import 'infinitescroll';

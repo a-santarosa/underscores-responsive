@@ -21,6 +21,6 @@
 		?>
 	</div><!-- .entry-content -->
 	<footer class="entry-footer">
-		<?php edit_post_link( __( 'Edit', 'urs' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php _urs_entry_meta(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

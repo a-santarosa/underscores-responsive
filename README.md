@@ -11,6 +11,8 @@ Dennis Leblanc: http://responsive.gs/
 
 Scott Jehl: http://j.mp/respondjs
 
+Anthony Santarosa http://guhru.com
+
 
 <!-- How the grid system works -->
 
