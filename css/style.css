@@ -486,8 +486,9 @@ textarea {
   URL : http://responsive.gs
   VERSION : 3.0
   LICENSE : GPL & MIT */
+/*  SASSIFICATION BY ANTHONY SANTAROSA http://guhru.com */
 /*  SET ALL ELEMENTS TO BOX-SIZING : BORDER-BOX */
-/* line 9, ../scss/_grid.scss */
+/* line 11, ../scss/_grid.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -500,12 +501,12 @@ textarea {
 
 /*  MAIN CONTAINER 
   Set the width to whatever you want the width of your site to be. */
-/* line 22, ../scss/_grid.scss */
+/* line 24, ../scss/_grid.scss */
 .container {
   max-width: 100%;
   margin: 0 auto;
 }
-/* line 25, ../scss/_grid.scss */
+/* line 27, ../scss/_grid.scss */
 .container:after {
   content: "";
   display: table;
@@ -513,7 +514,7 @@ textarea {
 }
 
 /*  SELF CLEARING FLOATS - CLEARFIX METHOD */
-/* line 34, ../scss/_grid.scss */
+/* line 36, ../scss/_grid.scss */
 .row:after, .col:after, .clr:after, .group:after {
   content: "";
   display: table;
@@ -522,13 +523,13 @@ textarea {
 
 /*  DEFAULT ROW STYLES 
   Set bottom padding according to preference */
-/* line 43, ../scss/_grid.scss */
+/* line 45, ../scss/_grid.scss */
 .row {
   padding-bottom: 0em;
 }
 
 /* DEFAULT COLUMN STYLES */
-/* line 49, ../scss/_grid.scss */
+/* line 51, ../scss/_grid.scss */
 .col {
   display: block;
   float: left;
@@ -536,11 +537,11 @@ textarea {
 }
 
 @media (min-width: 768px) {
-  /* line 56, ../scss/_grid.scss */
+  /* line 58, ../scss/_grid.scss */
   .gutters .col {
     margin-left: 2%;
   }
-  /* line 58, ../scss/_grid.scss */
+  /* line 60, ../scss/_grid.scss */
   .gutters .col:first-child {
     margin-left: 0;
   }
@@ -548,111 +549,111 @@ textarea {
 /*  COLUMN WIDTH ON DISPLAYS +768px 
   You might need to play with media queries here to suite your design. */
 @media (min-width: 768px) {
-  /* line 82, ../scss/_grid.scss */
+  /* line 84, ../scss/_grid.scss */
   .gutters .span_1 {
     width: 6.5%;
   }
-  /* line 85, ../scss/_grid.scss */
+  /* line 87, ../scss/_grid.scss */
   .gutters .span_2 {
     width: 15%;
   }
-  /* line 88, ../scss/_grid.scss */
+  /* line 90, ../scss/_grid.scss */
   .gutters .span_3 {
     width: 23.5%;
   }
-  /* line 91, ../scss/_grid.scss */
+  /* line 93, ../scss/_grid.scss */
   .gutters .span_4 {
     width: 32%;
   }
-  /* line 94, ../scss/_grid.scss */
+  /* line 96, ../scss/_grid.scss */
   .gutters .span_5 {
     width: 40.5%;
   }
-  /* line 97, ../scss/_grid.scss */
+  /* line 99, ../scss/_grid.scss */
   .gutters .span_6 {
     width: 49%;
   }
-  /* line 100, ../scss/_grid.scss */
+  /* line 102, ../scss/_grid.scss */
   .gutters .span_7 {
     width: 57.5%;
   }
-  /* line 103, ../scss/_grid.scss */
+  /* line 105, ../scss/_grid.scss */
   .gutters .span_8 {
     width: 66%;
   }
-  /* line 106, ../scss/_grid.scss */
+  /* line 108, ../scss/_grid.scss */
   .gutters .span_9 {
     width: 74.5%;
   }
-  /* line 109, ../scss/_grid.scss */
+  /* line 111, ../scss/_grid.scss */
   .gutters .span_10 {
     width: 83%;
   }
-  /* line 112, ../scss/_grid.scss */
+  /* line 114, ../scss/_grid.scss */
   .gutters .span_11 {
     width: 91.5%;
   }
-  /* line 115, ../scss/_grid.scss */
+  /* line 117, ../scss/_grid.scss */
   .gutters .span_12 {
     width: 100%;
   }
 
-  /* line 121, ../scss/_grid.scss */
+  /* line 123, ../scss/_grid.scss */
   .span_1 {
     width: 8.33333%;
   }
 
-  /* line 124, ../scss/_grid.scss */
+  /* line 126, ../scss/_grid.scss */
   .span_2 {
     width: 16.66667%;
   }
 
-  /* line 127, ../scss/_grid.scss */
+  /* line 129, ../scss/_grid.scss */
   .span_3 {
     width: 25%;
   }
 
-  /* line 130, ../scss/_grid.scss */
+  /* line 132, ../scss/_grid.scss */
   .span_4 {
     width: 33.33333%;
   }
 
-  /* line 133, ../scss/_grid.scss */
+  /* line 135, ../scss/_grid.scss */
   .span_5 {
     width: 41.66667%;
   }
 
-  /* line 136, ../scss/_grid.scss */
+  /* line 138, ../scss/_grid.scss */
   .span_6 {
     width: 50%;
   }
 
-  /* line 139, ../scss/_grid.scss */
+  /* line 141, ../scss/_grid.scss */
   .span_7 {
     width: 58.33333%;
   }
 
-  /* line 142, ../scss/_grid.scss */
+  /* line 144, ../scss/_grid.scss */
   .span_8 {
     width: 66.66667%;
   }
 
-  /* line 145, ../scss/_grid.scss */
+  /* line 147, ../scss/_grid.scss */
   .span_9 {
     width: 75%;
   }
 
-  /* line 148, ../scss/_grid.scss */
+  /* line 150, ../scss/_grid.scss */
   .span_10 {
     width: 83.33333%;
   }
 
-  /* line 151, ../scss/_grid.scss */
+  /* line 153, ../scss/_grid.scss */
   .span_11 {
     width: 91.66667%;
   }
 
-  /* line 154, ../scss/_grid.scss */
+  /* line 156, ../scss/_grid.scss */
   .span_12 {
     width: 100%;
   }
