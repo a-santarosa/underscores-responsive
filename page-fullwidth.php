@@ -6,8 +6,8 @@ Template Name: Full Width Page
 
 <?php get_header(); ?>
 
-	<div id="primary" class="content-area row">
-		<main id="main" class="site-main col span_12 clr" role="main">
+	<div id="primary" class="content-area col span_12 clr">
+		<main id="main" class="site-main" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
 

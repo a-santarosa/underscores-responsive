@@ -93,7 +93,7 @@ add_action( 'widgets_init', 'urs_widgets_init' );
  * Enqueue scripts and styles.
  */
 function urs_scripts() {
-	wp_enqueue_style( 'urs-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'urs-style', get_template_directory_uri() . 'css/style.css' );
 
 	wp_enqueue_script( 'urs-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
